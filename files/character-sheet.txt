@@ -1,0 +1,14 @@
+Name:
+Class:
+Level:
+
+Strength:
+Dexterity:
+Constitution:
+Intelligence:
+Wisdom:
+Charisma:
+
+Equipment:
+
+Notes:

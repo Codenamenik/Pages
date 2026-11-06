@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <link rel="icon" href="/Profile_Picture_CyberCubed.ico">
@@ -8,12 +7,17 @@
   <meta name="theme-color" content="#000814">
   <meta name="description" content="CyberCubed — Personal website for coding, Blender 3D art, and D&D campaigns">
   <title>CyberCubed</title>
-  <script type="module" crossorigin src="/assets/index-gl-x9LQZ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-fDixHaTe.css">
+  <!-- FOUC guard: paint the page black, margin-free, before styles.css loads -->
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-BEdW_CUk.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BAJZAI9m.css">
 </head>
-
-<body style="background-color: black; margin: 0; padding: 0;">
+<body>
   <div id="app"></div>
 </body>
-
 </html>
